@@ -1,0 +1,75 @@
+alredy previous concept know psudemo class psudemo element
+psudedo class 
+example a:hover{
+
+}
+a:link{
+
+}
+a:active{
+
+}
+a:visite{
+
+}
+suppose input field are their
+input:focous{
+
+}
+input:focous{
+
+}
+<body>
+<header></header>
+<header></header>
+<header></header>
+<p></p>
+<p></p>
+
+</body>
+ek body kitne child haine 5 child or 1 parent haine body
+first-child -kiya parent pahela child konsa haine
+first-type-child iss parent pahle child konsa haine
+p:firstchild{
+
+}
+p:firstoftypechild{
+
+}
+p:lastchild{
+
+}
+p:lastofchild{
+
+}
+p:nthoftype{
+
+}
+p:nth-child(2n){
+
+}
+:not(.demo){
+    color:red;
+}
+:root{
+
+}//is one html dom element 
+:empty{
+    
+}
+<p></p>
+p::selectopm{
+
+}
+p::firstline{
+
+}
+p::firstletter{
+
+}
+p:before{
+
+}
+p::after{
+    
+}
