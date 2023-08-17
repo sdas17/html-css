@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fav-muscian{
+    border: 1px solid green;
+}
+.mozart{
+    float: left;
+    width: 25%;
+    border: 1px solid salmon;
+    padding: 2em;
+    background-color: aquamarine;
+
+}
+.arts{
+    float: right;
+    width: 25%;
+    border: 1px solid saddlebrown;
+    padding: 2em;
+    background-color: aquamarine;
+
+}
+.arts1{
+    float: right;
+    width: 25%;
+    border: 1px solid rgb(139, 19, 19);
+    padding: 2em;
+    background-color: aquamarine;
+
+}
+.clearfix{
+    clear: both;
+}
+.arts2{
+    float: right;
+    width: 25%;
+    border: 1px solid rgb(125, 19, 139);
+    padding: 2em;
+    background-color: aquamarine;
+    height: 50%;
+
+}
+footer{
+    margin: 1em;
+}
