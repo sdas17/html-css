@@ -1,0 +1,66 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@100&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.7;
+  }
+  .header{
+    height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))  ,url('../PROJECT1/header-image.jpg');
+    position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+ .header,ul li a{
+    color: aliceblue;
+ }
+ ul li {
+    list-style: none;
+ }
+ a{
+    font-size: 1.6rem;
+    text-decoration: none;
+
+ }
+ p, li {
+font-size: 1.6rem;
+margin-bottom: 0.5em;
+letter-spacing: 0.15em;
+ }
+ .lg-heading{
+    font-size: 3.5rem;
+
+ }
+ h1,h2,h3{
+    margin-bottom: 0.5em;
+    font-weight: 500em;
+    letter-spacing: 0.15em;
+ }
+ .navbar{
+    border: 2px solid white;
+ }
+ :root{
+    font-size: 62.5%
+ }
+ header nav h1{
+    float: left;
+
+}
+header nav .nav-items{
+float: right;
+
+}
+.navbar ::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+header nav .nav-item{
+   display: inline-block;
+    
+    }
