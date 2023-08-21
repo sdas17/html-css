@@ -71,7 +71,7 @@
       text-align: center;
       position: absolute;
       top: 40%;
-      left: 30%;
+      left: 20%;
       transform: transalte(-50%, -50%);
       background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
   }
@@ -311,4 +311,14 @@ color: #f4f4f4;
   }
   .footer-icon i{
     margin: 2rem;
+  }
+  /* media query */
+  @media (max-width:500px) {
+    :root{
+        font-size: 8px;
+    }
+    .heading-content .lg-heading{
+        display: none;
+    }
+  
   }
