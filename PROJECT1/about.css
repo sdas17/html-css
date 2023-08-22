@@ -158,3 +158,19 @@ div:empty{
     margin-left: 8rem;
 
 }
+@media (max-width:500px) {
+ 
+  
+   .cta-banner-right,
+   .cta-banner-left{
+    width: 100%;
+    float: none;
+    text-align: center;
+
+ 
+   }
+   .cta-banner-right a{
+    margin-left: 0em;
+   }
+
+  }
