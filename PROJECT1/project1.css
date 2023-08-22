@@ -320,5 +320,27 @@ color: #f4f4f4;
     .heading-content .lg-heading{
         display: none;
     }
-  
+  .row{
+    height: auto;
+    width: 100%;
   }
+  .row .img-box,.row .text-box{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .feature .box{
+        width: 100%;
+        float: none;
+        padding: 2rem;
+        text-align: center;
+        box-shadow: 0px 0px 20PX 0PX #aaa;
+
+  }
+   /* .cta-banner.cta-banner-left,.cta-banner.cta-banner-right{
+    float: none;
+    width: 100%;
+   } */
+
+  }
+ 
