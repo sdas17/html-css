@@ -337,10 +337,54 @@ color: #f4f4f4;
         box-shadow: 0px 0px 20PX 0PX #aaa;
 
   }
-   /* .cta-banner.cta-banner-left,.cta-banner.cta-banner-right{
+ 
+  @media(min-width: 501px) and (max-width: 768px){
+
+    :root {
+        font-size: 44.5%
+    }
+    p{
+        font-size: 1.8rem;
+    }
+    .heading-content .lg-heading{
+        display: none;
+    }
+  
+  .row{
+    height: auto;
+    width: 100%;
+  }
+  .row .img-box,.row .text-box{
     float: none;
     width: 100%;
-   } */
+    text-align: center;
+  }
+  .feature .box{
+        width: 100%;
+        float: none;
+        padding: 2rem;
+        text-align: center;
+        box-shadow: 0px 0px 20PX 0PX #aaa;
 
+  }
+   
+    /* .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .form-wrapper .company-address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+    } */
+}
   }
  
