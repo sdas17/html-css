@@ -1,0 +1,64 @@
+.flex-wrapper{
+    display: flex;
+    /* flex-direction:column; */
+    /* /* height: 500px; */
+    /* flex-wrap:wrap-reverse; */ 
+    /* justify-content: space-between; */
+/* justify-content:center; */
+border: 1px solid rgb(31, 28, 27);
+/* height: 484px; */
+/* justify-content: space-between; */
+/* justify-content:end; */
+/* align-items: end; */
+/* flex-wrap: wrap;
+justify-content:space-between;
+align-items:center ; */
+/* flex-wrap: wrap;
+justify-content: flex-end; */
+/* align-items: center;
+justify-content: space-between; */
+width:100% ;
+
+
+}
+.box{
+    border: 1px solid rgb(218, 146, 112);
+    /* width: 300px; */
+    background-color: aqua;
+flex-basis: 300PX;
+flex-grow: 1;
+}
+.box1{
+
+    order: 4;
+
+}
+.box2{
+
+    order: 1;
+}
+.box3{
+ 
+    order: 2;
+
+}
+.box4{
+
+    order: 3;
+}
+.box1,.box2,.box3.box4 h1{
+    text-align: center;
+    font-size: 16px;
+    font-family: cursive;
+}
+.box1,.box2,.box3.box4 p {
+    text-align: center;
+}
+/* box-wraper =>container box1,box2,box3=>item
+  main size is mean that right to left box is their box1 box2 box3 box4 box5 
+  cross size is mean that top to bottom
+if 
+
+
+
+*/

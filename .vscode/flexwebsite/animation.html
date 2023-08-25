@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        .flex-wrap{
+            width: 5%;
+            border: 1px solid red;
+            height: 100px;
+            background-color: red;
+            animation-name: chage-bg-color;
+            animation-duration: 5s;
+            animation-delay: 3s;
+            /* animation-iteration-count: 3; */
+            animation-fill-mode: forwards;
+        }
+        @keyframes chage-bg-color{
+            from{
+background-color: orange;
+            }
+            to{
+                background-color: orangered;
+
+            }
+        }
+        .box2{
+            width: 3px;
+            margin-top: 1em;
+            border: 1px solid rgb(38, 0, 255);
+            height: 1px;
+            background-color: red;
+            animation-name: changebox;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: 3
+
+        }
+        @keyframes changebox{
+            from {
+                width: 0%;
+            }
+            to{
+                width: 50%;
+            }
+        }
+    </style> -->
+    <!-- <style>
+        .box3{
+            width: 50px;
+            height: 50px;
+            background-color: bisque;
+            border-radius: 50%;
+            animation-name: movearoung;
+            position: relative;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+animation-timing-function:ease-in;
+        }
+        @keyframes movearoung{
+            0%{
+top:0;
+left: 0;
+background-color: lightblue;
+            }25%{
+                top:0;
+                left: 300px;
+                background-color: lightblue;
+
+            }50%{
+                top:300px;
+                left: 300px;
+                background-color: lightcyan;
+
+            }
+            75%{
+                top:300px;
+                left: 0;
+                background-color: lightgreen;
+
+            }
+            100%{
+                top:0;
+                left: 0;
+                background-color: lightsteelblue;
+
+            }
+
+        }
+    </style> -->
+    <style>
+        .box3{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transition: transform 1sc ease-in;
+            margin: 150px auto;
+        }
+        .box3:hover{
+            /* transform: rotate(360eg); */
+            /* transform: scale(1.5,2); */
+            transform: translateX(50px);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-wrap">
+        <div class="box">
+        </div>
+     
+    </div>
+    <div class="box2">
+    </div>
+    <div class="box3"></div>
+</body>
+</html>
